@@ -1,3 +1,4 @@
+#use "./../../../classlib/OCaml/MyOCaml.ml";; 
 let string_merge(cs1, cs2) =
   let rec helper i j work =
     if string_length cs1=i then
